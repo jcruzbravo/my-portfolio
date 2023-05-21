@@ -31,33 +31,178 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="skills">
+        <div
+          id="skills"
+          className="flex flex-col gap-3 items-center justify-center"
+        >
           <h2>My skills</h2>
-          <div className="flex flex-col md:flex-row gap-3">
+          <div className="frontend-skills flex justify-center items-center gap-4">
+            <h3>Frontend</h3>
             <div>
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-                alt="Logo React"
-                width={25}
-                height={25}
+                src="/html.png"
+                alt="Logo HTML"
+                width={50}
+                height={30}
+                className="rounded-full object-cover"
               />
             </div>
             <div>
+              <Image src="/css.png" alt="Logo Css" width={50} height={30} />
+            </div>
+            <div>
               <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                src="/javascript.png"
                 alt="Logo JavaScript"
-                width={25}
-                height={25}
+                width={50}
+                height={30}
               />
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <Image src="/react.png" alt="Logo React" width={50} height={30} />
+            </div>
+            <div>
+              <Image
+                src="/angular.png"
+                alt="Logo Angular"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/typescript.png"
+                alt="Logo TypeScript"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/tailwind.png"
+                alt="Logo Tailwind"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/bootstrap.png"
+                alt="Logo Bootstrap"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image src="/sass.png" alt="Logo Sass" width={50} height={30} />
+            </div>
+            <div className="invert">
+              <Image src="/nextjs.png" alt="Logo Next" width={50} height={30} />
+            </div>
+          </div>
+          <div className="backend-skills flex justify-center items-center gap-4">
+            <h3>Backend</h3>
+            <div>
+              <Image
+                src="/nodejs.png"
+                alt="Logo NodeJs"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image src="/csharp.png" alt="Logo C#" width={50} height={30} />
+            </div>
+            <div>
+              <Image src="/php.png" alt="Logo PHP" width={50} height={30} />
+            </div>
+            <div>
+              <Image
+                src="/laravel.png"
+                alt="Logo Laravel"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/cakephp.jpg"
+                alt="Logo CakePhp"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div className="invert">
+              <Image
+                src="/express.png"
+                alt="Logo Express Js"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image src="/dotnet.png" alt="Logo .NET" width={50} height={30} />
+            </div>
+          </div>
+          <div className="tools-skills flex justify-center items-center gap-4">
+            <h3>Tools</h3>
+            <div>
+              <Image src="/git.png" alt="Logo Git" width={50} height={30} />
+            </div>
+            <div>
+              <Image src="/npm.png" alt="Logo Npm" width={50} height={30} />
+            </div>
+            <div className="invert">
+              <Image
+                src="/apirest.png"
+                alt="Logo ApiRest"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div className="invert">
+              <Image
+                src="/github.svg"
+                alt="Logo Github"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/gitlab.png"
+                alt="Logo Gitlab"
+                width={50}
+                height={30}
+              />
+            </div>
+          </div>
+          <div className="data-base-skills flex justify-center items-center gap-4">
+            <h3>Data Base</h3>
+            <div>
+              <Image src="/mysql.png" alt="Logo MySQL" width={50} height={30} />
+            </div>
+            <div className="invert">
+              <Image
+                src="/sqlserver.svg"
+                alt="Logo SQL Server"
+                width={50}
+                height={30}
+              />
+            </div>
+            <div>
+              <Image
+                src="/postgresql.png"
+                alt="Logo PostgreSQL"
+                width={50}
+                height={30}
+              />
+            </div>
           </div>
         </div>
-        <div id="about">
+        <div id="about" className="max-w-md">
           <h2>About me</h2>
-          <p>
+          <p className="text-justify">
             Hello! Im Joaquin, a passionate Junior Front-End Developer with
             experience in modern web development and technologies such as HTML,
             CSS and JavaScript, Angular, React. I am looking for opportunities
