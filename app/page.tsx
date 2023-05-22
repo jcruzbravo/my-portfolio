@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="text-white">
-      <div className="flex min-h-screen flex-col items-center justify-between px-16 mt-3">
-        <div id="projects" className="">
-          <h2 className="m-3 text-center">My projects</h2>
+      <div className="flex min-h-screen flex-col items-center justify-between px-16 mt-3 gap-8">
+        <section id="projects" className="max-w-full mt-5 mb-5">
+          <h2 className="m-3 text-center font-bold text-2xl">Projects</h2>
           <div className="flex flex-col md:flex-row gap-3">
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-black transition-transform ease-in-out hover:scale-105">
               <Image
@@ -48,6 +48,12 @@ export default function Home() {
                 </span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   #JavaScript
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #HTML
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #CSS
                 </span>
               </div>
             </div>
@@ -92,15 +98,30 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   #JavaScript
                 </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #HTML
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #CSS
+                </span>
               </div>
             </div>
           </div>
-        </div>
-        <div
+        </section>
+        <section id="about" className="max-w-md mt-8 mb-5">
+          <h2 className="m-3 text-center font-bold text-2xl mt-5 mb-5">About me</h2>
+          <p className="text-justify">
+            Hello! Im Joaquin, a passionate Junior Front-End Developer with
+            experience in modern web development and technologies such as HTML,
+            CSS and JavaScript, Angular, React. I am looking for opportunities
+            to grow and continue learning in the field of web development.
+          </p>
+        </section>
+        <section
           id="skills"
-          className="flex flex-col gap-3 items-center justify-center mt-4"
+          className="flex flex-col gap-3 items-center justify-center mt-5 mb-5"
         >
-          <h2>My skills</h2>
+          <h2 className="m-3 text-center font-bold text-2xl mt-5 mb-5">My skills</h2>
           <div className="frontend-skills flex justify-center items-center gap-4">
             <h3>Frontend</h3>
             <div>
@@ -264,16 +285,7 @@ export default function Home() {
               />
             </div>
           </div>
-        </div>
-        <div id="about" className="max-w-md">
-          <h2>About me</h2>
-          <p className="text-justify">
-            Hello! Im Joaquin, a passionate Junior Front-End Developer with
-            experience in modern web development and technologies such as HTML,
-            CSS and JavaScript, Angular, React. I am looking for opportunities
-            to grow and continue learning in the field of web development.
-          </p>
-        </div>
+        </section>
       </div>
     </main>
   );
