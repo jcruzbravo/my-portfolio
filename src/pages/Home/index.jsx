@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
-import About from "../../containers/About";
+import Skills from "../../containers/Skills";
+import Projects from "../../containers/Projects";
 
 const Home = () => {
   return (
@@ -11,9 +12,10 @@ const Home = () => {
           <h1 className="font-medium text-xl text-white">
             Hola, soy Joaquin de Jesus Cruz Bravo.
           </h1>
-          <p className="text-base text-white">Desarrollador web frontend.</p>
+          <p className="text-base text-white">Desarrollador Frontend.</p>
         </div>
-        <About/>
+        <Skills/>
+        <Projects/>
       </Layout>
     </>
   );

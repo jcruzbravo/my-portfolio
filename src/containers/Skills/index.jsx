@@ -6,10 +6,10 @@ import {
   toolsSkills,
 } from "../../data";
 
-const About = () => {
+const Skills = () => {
   return (
-    <section>
-      <div className="mt-3">
+    <section className="m-6">
+      <div className="mt-3 flex flex-col gap-4">
         <h1 className="font-medium text-xl">Habilidades</h1>
         <div className="front-end-technologies">
           <p>Tecnologías front end</p>
@@ -56,4 +56,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;
