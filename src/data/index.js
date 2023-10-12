@@ -1,10 +1,10 @@
 import html from "/src/assets/images/html.png";
 import css from "/src/assets/images/css.png";
-import angular from "/src/assets/images/angular.png";
-import bootstrap from "/src/assets/images/bootstrap.png";
 import javascript from "/src/assets/images/js.png";
-import nextjs from "/src/assets/images/next.svg";
+import angular from "/src/assets/images/angular.png";
 import react from "/src/assets/images/react.png";
+import nextjs from "/src/assets/images/next.svg";
+import bootstrap from "/src/assets/images/bootstrap.png";
 import tailwind from "/src/assets/images/tailwind.png";
 import typescript from "/src/assets/images/typescript.png";
 import sass from "/src/assets/images/sass.png";
@@ -29,22 +29,22 @@ export const frontEndSkills = [
   { name: "HTML", image: html },
   { name: "CSS", image: css },
   { name: "Angular", image: angular },
-  { name: "Bootstrap", image: bootstrap },
   { name: "JavaScript", image: javascript },
   { name: "Next.js", image: nextjs },
   { name: "React", image: react },
+  { name: "Bootstrap", image: bootstrap },
   { name: "Tailwind CSS", image: tailwind },
-  { name: "TypeScript", image: typescript },
   { name: "Sass", image: sass },
+  { name: "TypeScript", image: typescript },
   { name: "Vercel", image: vercel },
 ];
 
 export const backEndSkills = [
   { name: "CakePhp", image: cake },
   { name: "Laravel", image: laravel },
-  { name: "C#", image: csharp },
   { name: "ExpressJs", image: expressjs },
   { name: "NodeJs", image: nodejs },
+  { name: "C#", image: csharp },
   { name: "PHP", image: php },
 ];
 
