@@ -61,3 +61,42 @@ export const toolsSkills = [
   { name: "ApiRest", image: apirest },
   { name: "NPM", image: npm },
 ]
+
+export const projectsData = [
+  {
+    imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1684695318/fortnite-informer_h2uv1c.png",
+    imgAlt: "Fortnite Informer",
+    title: "Fortnite Informer",
+    description: "This application built with React allows Fortnite players to consult mainly the most relevant information, such as the news, the item shop, etc.",
+    repoLink: "http://github.com/jcruzbravo/fortnite-informer",
+    productionLink: "https://fortnite-info.vercel.app/",
+    tags: ["#React", "#JavaScript", "#HTML", "#CSS"],
+  },
+  {
+    imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1684699633/react-shop_j8effx.png",
+    imgAlt: "TODO APP",
+    title: "TODO APP",
+    description: "This application built with React allows anyone to register their tasks to be done andfinish them, also each of these tasks is saved in the browser.",
+    repoLink: "https://github.com/jcruzbravo/introduction-react-js",
+    productionLink: "https://jcruzbravo.github.io/introduction-react-js/",
+    tags: ["#React", "#JavaScript", "#HTML", "#CSS"],
+  },
+  {
+    imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1686421978/jshop_wlaofv.png",
+    imgAlt: "JShop",
+    title: "JShop",
+    description: "This application built with React, Vite and Tailwindcss simulates a virtual ecommerce store in which you can interact by adding products to the shopping cart, previewing and searching.",
+    repoLink: "https://github.com/jcruzbravo/ecommerce-react-vite-tailwind",
+    productionLink: "https://jsh0p.netlify.app/",
+    tags: ["#React", "#JavaScript", "#HTML", "#CSS", "#TailwindCSS", "#Vite"],
+  },
+  {
+    imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1686422013/react-shop_yasfam.png",
+    imgAlt: "React Shop",
+    title: "React Shop",
+    description: "This application built with React, HTML and CSS simulates a virtual ecommerce store in which you can interact by adding products to the shopping cart, previewing and searching.",
+    repoLink: "https://github.com/jcruzbravo/react-shop",
+    productionLink: "https://jcruzbravo.github.io/react-shop/",
+    tags: ["#React", "#JavaScript", "#HTML", "#CSS"],
+  }
+];
