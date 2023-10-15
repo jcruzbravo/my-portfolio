@@ -44,7 +44,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/public/resume.pdf"
+                to="/resume.pdf"
                 className={"hover:bg-gray-700 text-white"}
                 target="_blank"
               >
