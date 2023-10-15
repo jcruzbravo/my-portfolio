@@ -1,7 +1,6 @@
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
-import Skills from "../../containers/Skills";
-import Projects from "../../containers/Projects";
+import About from "../About";
 
 const Home = () => {
   return (
@@ -14,10 +13,8 @@ const Home = () => {
           </h1>
           <p className="text-base text-white">Desarrollador Frontend.</p>
         </div>
+        <About />
         <hr className="w-2/3 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-        <Projects />
-        <hr className="w-2/3 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-        <Skills />
       </Layout>
     </>
   );
