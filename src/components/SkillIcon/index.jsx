@@ -18,8 +18,8 @@ const SkillIcon = ({ name, image }) => {
 
 
   return (
-    <div className="skill-icon">
-      {imageSrc && <img src={imageSrc} alt={name} className='w-16'/>}
+    <div className="skill-icon text-center">
+      {imageSrc && <img src={imageSrc} alt={name} className='w-20'/>}
     </div>
   );
 
