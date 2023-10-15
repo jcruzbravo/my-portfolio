@@ -2,6 +2,7 @@ import { useRoutes, BrowserRouter } from "react-router-dom";
 import Home from "../Home";
 import About from "../About";
 import Projects from "../Projects";
+import NotFound from "../../components/NotFound";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./App.css";
@@ -25,10 +26,10 @@ const AppRoutes = () => {
     //   path: "/resume",
     //   element: <Resume/>
     // },
-    // {
-    //   path: "*",
-    //   element: <NotFound/>
-    // }
+    {
+      path: "*",
+      element: <NotFound/>
+    }
   ]);
 
   return routes;
