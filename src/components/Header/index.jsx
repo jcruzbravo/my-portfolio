@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import MenuMobile from "../MenuMobile";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "../../assets/images/logo.png";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,7 +19,7 @@ const Header = () => {
       </div>
       <div className="hidden md:block">{showMenu && <MenuMobile />}</div>
       <div className="w-12 invert">
-        <img src={logo} alt="Logo" />
+        <img src="https://res.cloudinary.com/dubztfhgv/image/upload/v1697405827/logo_jgsodu.png" alt="Logo" />
       </div>
       <div className="flex justify-between items-center md:hidden">
         <nav className="m-2 ">
@@ -32,7 +31,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink to="/about" className={"hover:bg-gray-700 text-white"}>
-                Sobre mí
+                Habilidades
               </NavLink>
             </li>
             <li>

@@ -20,7 +20,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/images/hero.jpg')",
+        'hero-pattern': "url('https://res.cloudinary.com/dubztfhgv/image/upload/v1697405826/hero_ji8vd9.jpg')",
       }
     },
   },
