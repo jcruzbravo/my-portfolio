@@ -24,7 +24,7 @@ const ProjectCard = ({
             rel="noopener noreferrer"
             className="underline text-white"
           >
-            Repository
+            Repositorio
           </a>
           <a
             href={productionLink}
@@ -32,7 +32,7 @@ const ProjectCard = ({
             rel="noopener noreferrer"
             className="underline text-white"
           >
-            Production
+            Producci&oacute;n
           </a>
         </div>
       </div>
