@@ -6,16 +6,34 @@ const MenuMobile = () => {
       <div className="flex items-center justify-center">
         <ul className="list-none p-0 flex items-center justify-center gap-2">
           <li>
-            <NavLink to="/" className="hover:bg-gray-700 text-white font-bold">Inicio</NavLink>
+            <NavLink to="/" className="hover:bg-gray-700 text-white font-bold">
+              Inicio
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className="hover:bg-gray-700 text-white font-bold">Sobre mí</NavLink>
+            <NavLink
+              to="/about"
+              className="hover:bg-gray-700 text-white font-bold"
+            >
+              Sobre mí
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" className="hover:bg-gray-700 text-white font-bold">Proyectos</NavLink>
+            <NavLink
+              to="/projects"
+              className="hover:bg-gray-700 text-white font-bold"
+            >
+              Proyectos
+            </NavLink>
           </li>
           <li>
-            <a href="/public/resume.pdf" className="hover:bg-gray-700 text-white font-bold" target="_blank">Ver cv</a>
+            <NavLink
+              to="/resume.pdf"
+              className="hover:bg-gray-700 text-white font-bold"
+              target="_blank"
+            >
+              Ver cv
+            </NavLink>
           </li>
         </ul>
       </div>
