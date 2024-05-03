@@ -11,10 +11,9 @@ const Home = () => {
           <h1 className="font-medium text-xl text-white">
             Hola, soy Joaquin de Jesus Cruz Bravo.
           </h1>
-          <p className="text-base text-white">Desarrollador Frontend.</p>
+          <p className="text-base text-white">Desarrollador Web apasionado por la tecnología, el café, los videojuegos y la formula 1.</p>
         </div>
         <About />
-        <hr className="w-2/3 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       </Layout>
     </>
   );
