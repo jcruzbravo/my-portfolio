@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 const About = () => {
   return (
     <Layout>
-      <section className="bg-gray-100 mt-8">
+      <section className="bg-gray-100">
         <div className="container mx-auto py-4 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-1 items-center justify-items-center gap-8 p-2">
             <div className="max-w-sm">
@@ -18,10 +18,10 @@ const About = () => {
                 conocimientos para ofrecer resultados de calidad.
               </p>
               <p className="mt-4 text-gray-600 text-md w-100">
-                Actualmente me desempeño como desarrollador web fullstack, centrándome en el uso de Vue.js para el frontend y Laravel para el backend.
+                Actualmente me desempeño como desarrollador web fullstack, centrándome en el uso de tecnologias como Vue.js, Filamentphp, Laravel y Docker.
               </p>
             </div>
-            <div className="mt-12 md:mt-0 max-w-xs">
+            <div className="md:mt-0 max-w-xs">
               <img
                 src="https://res.cloudinary.com/dubztfhgv/image/upload/v1697405298/foto_xt1z1d.jpg"
                 alt="Me"

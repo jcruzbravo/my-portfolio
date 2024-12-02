@@ -7,11 +7,13 @@ const Home = () => {
     <>
       <Hero />
       <Layout>
-        <div className="absolute top-20 left-0 pt-10 pl-4">
-          <h1 className="font-medium text-xl text-white">
+        <div className="absolute top-20 left-0 pt-16 pl-4">
+          <h1 className="font-bold text-xl text-white">
             Hola, soy Joaquin de Jesus Cruz Bravo.
           </h1>
-          <p className="text-base text-white">Desarrollador Web apasionado por la tecnología, el café, los videojuegos y la formula 1.</p>
+          <small className="text-base text-white font-bold">
+            Desarrollador web, amante del café, la tecnología, los videojuegos y fan de Oracle Red Bull Racing.
+          </small>
         </div>
         <About />
       </Layout>

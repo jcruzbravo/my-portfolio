@@ -10,6 +10,7 @@ export const frontEndSkills = [
   { name: "Sass", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405821/sass_cu8hly.png" },
   { name: "TypeScript", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405822/typescript_iwjyk0.png" },
   { name: "Vercel", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405822/vercel_k7lg7x.svg" },
+  { name: "Vue.js", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1733105660/mjcqfdhwpj2kxmnfpj8y.png" },
 ];
 
 export const backEndSkills = [
@@ -18,6 +19,7 @@ export const backEndSkills = [
   { name: "NodeJs", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405820/nodejs_ikored.png" },
   { name: "C#", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405824/csharp_hxifp0.png" },
   { name: "PHP", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405820/php_kbqoya.png" },
+  { name: "Filamentphp", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1733105501/znrryw6tfowhmtjrg6iq.png" },
 ];
 
 export const databaseSkills = [
@@ -32,6 +34,7 @@ export const toolsSkills = [
   { name: "Gitlab", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405825/gitlab_d32c6d.png" },
   { name: "ApiRest", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405823/apirest_dum3ye.png" },
   { name: "NPM", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405820/npm_f2ml8y.png" },
+  { name: "Docker", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1733105655/mzk2lrhiddpcjpxdfodk.svg" },
 ]
 
 export const projectsData = [
