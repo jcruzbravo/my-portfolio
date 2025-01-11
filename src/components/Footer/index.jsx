@@ -59,9 +59,11 @@ function Footer() {
             </a>
           </div>
           <div className="text-center text-white">
-            <p className="text-sm">&copy; {new Date().getFullYear()} Joaquin Cruz Bravo</p>
-            <span className="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300 text-center w-full">
-              Versión 1.1 | Ultima actualización 30 de abril de 2024
+            <p className="text-sm">
+              &copy; {new Date().getFullYear()} JB. Todos los derechos reservados.
+            </p>
+            <span className="text-xs font-medium bg-gray-700 text-gray-300 rounded-full px-4 py-1 inline-block mt-2 shadow-md">
+              <strong>Versión 2.0</strong> | Última actualización: 11 de enero de 2025
             </span>
           </div>
         </div>

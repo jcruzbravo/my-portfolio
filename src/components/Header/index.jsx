@@ -25,19 +25,19 @@ const Header = () => {
         <nav className="m-2 ">
           <ul className="list-none flex items-center gap-4">
             <li>
-              <NavLink to="/" className={"hover:bg-gray-700 text-white"}>
+              <NavLink to="/" className={"hover:bg-gray-700 text-white hover:rounded"}>
                 Inicio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className={"hover:bg-gray-700 text-white"}>
+              <NavLink to="/about" className={"hover:bg-gray-700 text-white hover:rounded"}>
                 Habilidades
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/projects"
-                className={"hover:bg-gray-700 text-white"}
+                className={"hover:bg-gray-700 text-white hover:rounded"}
               >
                 Proyectos
               </NavLink>
@@ -45,7 +45,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/resume.pdf"
-                className={"hover:bg-gray-700 text-white"}
+                className={"hover:bg-gray-700 text-white hover:rounded"}
                 target="_blank"
               >
                 Ver cv

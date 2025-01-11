@@ -38,15 +38,15 @@ export const toolsSkills = [
 ]
 
 export const projectsData = [
-  // {
-  //   imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1684695318/fortnite-informer_h2uv1c.png",
-  //   imgAlt: "Fortnite Informer",
-  //   title: "Fortnite Informer",
-  //   description: "Esta aplicación construida con React permite a los jugadores de Fortnite consultar principalmente la información más relevante, como las noticias, la tienda de artículos, etc.",
-  //   repoLink: "http://github.com/jcruzbravo/fortnite-informer",
-  //   productionLink: "https://fortnite-info.vercel.app/",
-  //   tags: ["#React", "#JavaScript", "#HTML", "#CSS"],
-  // },
+  {
+    imgSrc: "https://res.cloudinary.com/dubztfhgv/image/upload/v1736606422/preview-fortnite-informer-v2_kzpfmp.png",
+    imgAlt: "Fortnite Informer",
+    title: "Fortnite Informer",
+    description: "Esta aplicación construida con React permite a los jugadores de Fortnite consultar principalmente la información más relevante, como las noticias, la tienda de artículos, etc.",
+    repoLink: "https://github.com/jcruzbravo/fortnite-informer-v2",
+    productionLink: "https://fortnite-informer-v2.vercel.app/",
+    tags: ["#React", "#JavaScript", "#HTML", "#CSS", "#TailwindCSS", "#Vercel", "#API", "#Fortnite", "#Typescript"],
+  },
   {
     imgSrc: "https://res.cloudinary.com/dyfmjmdb4/image/upload/v1684699633/react-shop_j8effx.png",
     imgAlt: "TODO APP",
