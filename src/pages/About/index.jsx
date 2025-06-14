@@ -8,15 +8,20 @@ const About = () => {
           <div className="grid grid-cols-2 md:grid-cols-1 items-center gap-8 p-2">
             <div className="max-w-lg">
               <p className="mt-4 text-gray-600 text-lg">
-                Tengo más de 1 año de experiencia laboral en desarrollo web, me
-                he especializado en frontend haciendo uso de tecnologías,
-                frameworks y librerías clave como JavaScript, Angular, Vue y
-                React. Mi enfoque principal sigue siendo el aprendizaje
-                constante y la aplicación práctica de mis conocimientos para
-                ofrecer resultados de calidad.
+                Tengo más de dos años de experiencia laboral creando soluciones
+                dinámicas y eficientes. Me especializo en frontend usando
+                JavaScript, Vue, Angular y React.
+              </p>
+
+              <p className="mt-4 text-gray-600 text-lg">
+                Me apasiona diseñar interfaces intuitivas y
+                desarrollar funcionalidades robustas que aporten valor real.
+                Siempre busco aprender nuevas tecnologías y mejorar mis habilidades para entregar proyectos de alta calidad,
+                colaborando de manera efectiva en equipos multidisciplinarios.
               </p>
               <p className="mt-4 text-gray-600 text-lg">
-                Actualmente trabajo como desarrollador web fullstack.
+                Actualmente, trabajo como desarrollador web fullstack,
+                utilizando principalmente PHP, Laravel, Filament PHP, Vue y JavaScript.
               </p>
             </div>
             <div className="mt-12 md:mt-0 max-w-md">
