@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const MenuMobile = () => {
   return (
-    <div className="bg-blue-900 w-full p-4 box-border absolute top-16 left-0 transition-transform duration-1000 z-10">
+    <div className="bg-blue-900 w-full p-4 box-border absolute top-0 left-0 transition-transform duration-1000 z-10">
       <div className="flex items-center justify-center">
         <ul className="list-none p-0 flex items-center justify-center gap-2">
           <li>
