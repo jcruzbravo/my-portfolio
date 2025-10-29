@@ -60,10 +60,10 @@ function Footer() {
           </div>
           <div className="text-center text-white">
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} JB. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()}. Todos los derechos reservados.
             </p>
             <span className="text-xs font-medium bg-gray-700 text-gray-300 rounded-full px-4 py-1 inline-block mt-2 shadow-md">
-              <strong>Versión 2.0</strong> | Última actualización: 11 de enero de 2025
+              <strong>Versión 2.1</strong> | Última actualización: 29 de octubre de 2025
             </span>
           </div>
         </div>

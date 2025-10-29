@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="md:mt-0 max-w-xs">
               <img
-                src="https://res.cloudinary.com/dubztfhgv/image/upload/v1697405298/foto_xt1z1d.jpg"
+                src="https://res.cloudinary.com/dubztfhgv/image/upload/v1761753179/20240903_143029_kl5yh7.jpg"
                 alt="Me"
                 className="object-cover rounded-lg shadow-md w-100"
               />
