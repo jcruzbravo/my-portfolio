@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-hero-pattern {
+    background-image: url("https://res.cloudinary.com/dubztfhgv/image/upload/v1697405826/hero_ji8vd9.jpg");
+  }
+}
