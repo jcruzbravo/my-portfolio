@@ -5,7 +5,7 @@ const About = () => {
     <Layout>
       <section className="bg-gray-100">
         <div className="container mx-auto py-4 px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-1 items-center gap-8 p-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-items-center gap-8 p-2">
             <div className="max-w-lg">
               <p className="mt-4 text-gray-600 text-lg">
                 Tengo más de dos años de experiencia laboral creando soluciones
