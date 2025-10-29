@@ -19,20 +19,6 @@ function Footer() {
         <div className="flex flex-col gap-4 items-center justify-center p-2">
           <div className="flex gap-11 justify-center items-center mt-2">
             <a
-              href="https://www.facebook.com/joaquinbravo2000"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook color={colorFacebook} size={28} />
-            </a>
-            <a
-              href="https://twitter.com/Joaacooo___"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter color={colorTwitter} size={28} />
-            </a>
-            <a
               href="https://www.twitch.tv/1tsjoaco"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,13 +35,6 @@ function Footer() {
                 style={{ filter: "invert(1)" }}
                 size={28}
               />
-            </a>
-            <a
-              href="https://www.instagram.com/1tsjoaco/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram color={colorInstagram} size={28} />
             </a>
           </div>
           <div className="text-center text-white">
