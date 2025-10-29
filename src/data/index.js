@@ -20,6 +20,7 @@ export const backEndSkills = [
   { name: "C#", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405824/csharp_hxifp0.png" },
   { name: "PHP", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1697405820/php_kbqoya.png" },
   { name: "Filamentphp", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1733105501/znrryw6tfowhmtjrg6iq.png" },
+  { name: "Livewire", image: "https://res.cloudinary.com/dubztfhgv/image/upload/v1761760502/Livewire_znzy1z.png" },
 ];
 
 export const databaseSkills = [

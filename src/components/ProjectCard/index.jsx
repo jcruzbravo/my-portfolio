@@ -10,19 +10,19 @@ const ProjectCard = ({
   tags,
 }) => {
   return (
-    <div className="max-w-lg rounded overflow-hidden shadow-lg bg-black transition-transform ease-in-out hover:scale-105">
-      <div className="md:max-w-xs lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl">
-        <img className="w-full" src={imgSrc} alt={imgAlt} />
-      </div>
+    <div className="max-w-md rounded-xl overflow-hidden shadow-lg bg-gray-900 transition-transform transform hover:scale-105 hover:shadow-2xl">
+      <img className="w-full h-48 object-cover" src={imgSrc} alt={imgAlt} />
+
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 text-white text-center">{title}</div>
-        <p className="text-white text-base text-justify">{description}</p>
-        <div className="flex gap-4">
+        <h3 className="font-bold text-2xl mb-2 text-white text-center">{title}</h3>
+        <p className="text-gray-300 text-base mb-4 text-justify">{description}</p>
+
+        <div className="flex justify-center gap-4">
           <a
             href={repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline text-white"
+            className="flex items-center gap-1 px-3 py-1 border border-white rounded-md text-white hover:bg-white hover:text-gray-900 transition-colors"
           >
             Repositorio
           </a>
@@ -30,17 +30,19 @@ const ProjectCard = ({
             href={productionLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline text-white"
+            className="flex items-center gap-1 px-3 py-1 border border-white rounded-md text-white hover:bg-white hover:text-gray-900 transition-colors"
           >
-            Producci&oacute;n
+            Producción
           </a>
         </div>
       </div>
-      <div className="px-6 pt-4 pb-2">
+
+      {/* Tags */}
+      <div className="px-6 pb-4 pt-2 flex flex-wrap justify-center gap-2">
         {tags.map((tag, index) => (
           <span
             key={index}
-            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            className="inline-block bg-linear-to-r from-blue-500 to-purple-500 text-white rounded-full px-3 py-1 text-sm font-medium"
           >
             {tag}
           </span>
